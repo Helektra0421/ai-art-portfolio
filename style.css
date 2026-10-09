@@ -11,8 +11,15 @@ img{
     border-radius: 15px;
 }
 
+.gallery{
+    display: flex;
+    gap: 20px;
+
+    flex-wrap: wrap; 
+}
+
 .card{
-    width: 500px;
+    width: 300px;
 
     background-color: #222;
 
